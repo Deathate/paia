@@ -76,7 +76,6 @@ class Memory():
     def __len__(self):
         return len(self.rewards)
 def plot_res(values, title=''):
-    # clear_output(wait=True)
     f, ax = plt.subplots(nrows=1, ncols=2, figsize=(12, 5))
     f.suptitle(title)
     ax[0].plot(values, label='score per run')
@@ -93,7 +92,6 @@ def plot_res(values, title=''):
     except:
         pass
     ax[1].hist(values[-50:])
-    # ax[1].axvline(195, c='red', label='goal')
     ax[1].set_xlabel('Scores per Last 50 Episodes')
     ax[1].set_ylabel('Frequency')
     # ax[1].legend()
@@ -101,6 +99,7 @@ def plot_res(values, title=''):
 
 env = gym.make("CartPole-v1")
 env.reset(seed=1)
+torch.manual_seed(1)
 # config
 state_dim = 4
 n_actions = 2
@@ -123,7 +122,7 @@ def train(memory):
     for i, (_, _, reward, done) in enumerate(memory.reversed()):
         q_val = reward + gamma*q_val*(1.0-done)
         q_vals[len(memory)-1 - i] = q_val # store values from the end to the beginning
-        
+
     advantage = torch.Tensor(q_vals) - values
     
     critic_loss = advantage.pow(2).mean()
@@ -147,20 +146,20 @@ while True:
     while True:
         action,log_prob = actor.act(state)
         next_state, reward, done, truncated, _ = env.step(action)
+        if finish():
+            memory.add(log_prob, critic(t(state)), -1, done)
+            train(memory)
+            memory.clear()
+            break
         
         total_reward += reward
 
         memory.add(log_prob, critic(t(state)), reward, done)
         
         state = next_state
-        
-        if finish():
-            train(memory)
-            memory.clear()
-            break
-            
     episode_rewards.append(total_reward)
-    if len(episode_rewards)>=100 and np.mean(episode_rewards[-20:])>=300:
+
+    if np.mean(episode_rewards[-20:])>=200:
         print(len(episode_rewards))
         plot_res(episode_rewards, title='Episodic A2C')
         break
