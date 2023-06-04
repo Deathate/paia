@@ -3,9 +3,9 @@ import torch
 from torch import nn
 import matplotlib.pyplot as plt
 import gymnasium as gym
-# import gym
+
 # helper function to convert numpy arrays to tensors
-def t(x): return torch.from_numpy(x).float()
+def t(x): return torch.from_numpy(x)
 # Actor module, categorical actions only
 class Actor(nn.Module):
     def __init__(self, state_dim, n_actions):
@@ -153,7 +153,6 @@ while True:
             break
         
         total_reward += reward
-
         memory.add(log_prob, critic(t(state)), reward, done)
         
         state = next_state
