@@ -1,0 +1,56 @@
+{
+  "game_name": "dont_touch",
+  "version": "1.0.1",
+  "url": "https://github.com/yen900611/dont_touch",
+  "description": "不要碰！",
+  "logo": [
+    "./asset/image/dont_touch.svg",
+    "https://github.com/yen900611/dont_touch/blob/master/asset/image/dont_touch.svg"
+  ],
+  "user_num": {
+    "min": 1,"max": 4
+  },
+  "game_params": [
+    {
+      "name": "map",
+      "verbose": "地圖",
+      "type": "int",
+      "min": 1,
+      "max": 100,
+      "default": 1,
+      "help": "choose a map for game"
+    },
+    {
+      "name": "time_to_play",
+      "verbose": "遊戲總幀數",
+      "type": "int",
+      "min": 60,
+      "max": 5400,
+      "step": 30,
+      "help": "set the limit of frame count , actually time will be revised according to your FPS .",
+      "default": 450
+    },
+    {
+      "name": "sensor_num",
+      "verbose": "感測器數量",
+      "type": "int",
+      "choices": [
+        4,
+        6
+      ],
+      "help": "set the number of sensor.",
+      "default": 6
+    },
+    {
+      "name": "sound",
+      "verbose": "遊戲音效",
+      "type": "str",
+      "choices": [
+        "on",
+        "off"
+      ],
+      "help": "'on' can turn on the sound.",
+      "default": "on"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "/Users/yanshaoting/Downloads/level_1.tmj",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/Users/yanshaoting/Desktop/站存區/test.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/Downloads/level_1.tmj": {
+            "scale": 0.16,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1325,
+                "y": 1240.625
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_10.json": {
+            "scale": 0.2462,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 767.6685621445979,
+                "y": 1135.2558895207148
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_10.json#迷宮素材": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_11.json": {
+            "scale": 0.20603125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 791.1421204307601,
+                "y": 1109.0550583952677
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_12.tmj": {
+            "scale": 0.322109375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 936.0174630123695,
+                "y": 1330.2934756245454
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_7.json": {
+            "scale": 0.38653125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 834.3439243269464,
+                "y": 800.7114560595037
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_7.json#迷宮素材": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_8.json": {
+            "scale": 0.38653125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1065.8905327835719,
+                "y": 1196.5397364378691
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_8.json#迷宮素材": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_9.json": {
+            "scale": 0.38653125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 695.933381841701,
+                "y": 1062.0098633680977
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_9.json#迷宮素材": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/tile.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/test/src/map/level_2.tmj": {
+            "scale": 0.2619921875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1341.643059490085,
+                "y": 1253.854182197704
+            }
+        },
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/test/src/map/tile.tsx": {
+            "scaleInDock": 1
+        },
+        "lecel_6.tmj": {
+            "scale": 0.2619921875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1282.480990010437,
+                "y": 1282.480990010437
+            }
+        },
+        "level_1.jaso.tmx": {
+            "scale": 0.42,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 961.9047619047618,
+                "y": 640.4761904761905
+            }
+        },
+        "level_1.tmj": {
+            "scale": 0.16,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1325,
+                "y": 1240.625
+            }
+        },
+        "level_1.tmx": {
+            "scale": 0.42947916666666663,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 961.6298811544992,
+                "y": 640.310453553238
+            }
+        },
+        "level_10.tmj": {
+            "scale": 0.23638671875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1281.7979013467734,
+                "y": 1283.913079401801
+            }
+        },
+        "level_11.tmj": {
+            "scale": 0.23638671875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1281.7979013467734,
+                "y": 1283.913079401801
+            }
+        },
+        "level_12.tmj": {
+            "scale": 0.24,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1283.3333333333335,
+                "y": 1277.0833333333335
+            }
+        },
+        "level_2.tmj": {
+            "scale": 0.24158203124999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1285.2777104050454,
+                "y": 1281.138329695206
+            }
+        },
+        "level_3.tmj": {
+            "scale": 0.24,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1241.666666666667,
+                "y": 1056.25
+            }
+        },
+        "level_4.tmj": {
+            "scale": 0.24,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1483.3333333333333,
+                "y": 1256.2500000000002
+            }
+        },
+        "level_5.tmj": {
+            "scale": 0.24158203124999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1370.135014956747,
+                "y": 1384.622847441184
+            }
+        },
+        "level_6.tmj": {
+            "scale": 0.24158203124999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1295.626162179643,
+                "y": 1297.6958525345624
+            }
+        },
+        "level_7.tmj": {
+            "scale": 0.24,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1312.5,
+                "y": 1314.5833333333335
+            }
+        },
+        "level_8.tmj": {
+            "scale": 0.2345,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1351.8123667377397,
+                "y": 2023.454157782516
+            }
+        },
+        "level_9.tmj": {
+            "scale": 0.23638671875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1281.7979013467734,
+                "y": 1283.913079401801
+            }
+        },
+        "tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.9
+        },
+        "v2_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "v3_tile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.2207
+        }
+    },
+    "last.externalTilesetPath": "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map",
+    "last.imagePath": "/Users/yanshaoting/PycharmProjects/MLGame/games/dont_touch/src/map",
+    "map.height": 40,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 40,
+    "openFiles": [
+        "v3_tile.tsx",
+        "level_12.tmj",
+        "/Users/yanshaoting/Downloads/level_1.tmj"
+    ],
+    "project": "level1.tiled-project",
+    "recentFiles": [
+        "v3_tile.tsx",
+        "level_12.tmj",
+        "level_1.tmj",
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_10.json",
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_9.json",
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_11.json",
+        "level_8.tmj",
+        "/Users/yanshaoting/PycharmProjects/MLGame/games/maze_car/src/map/level_8.json",
+        "level_11.tmj",
+        "level_10.tmj",
+        "level_9.tmj",
+        "level_7.tmj"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}

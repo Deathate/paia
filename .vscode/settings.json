@@ -1,0 +1,51 @@
+{
+  "multiCommand.commands": [
+    {
+      "command": "dont touch",
+      "sequence": [
+        {
+          "command": "workbench.action.files.save"
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "python -m mlgame -f 60 -i dont_touch/ml/ml_play.py dont_touch --time_to_play 1800 --map 2 --sound off \u000D"
+          }
+        }
+      ]
+    },
+    {
+      "command": "maze_car train",
+      "sequence": [
+        {
+          "command": "workbench.action.files.save"
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "python -m mlgame -f 1450 -i maze_car/ml/ml_play.py maze_car --map 1 --game_type MAZE --time_to_play 4450 --sensor_num 5 --sound off \u000D"
+          }
+        }
+      ]
+    },
+    {
+      "command": "arkanoid train",
+      "sequence": [
+        {
+          "command": "workbench.action.files.save"
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "python -m mlgame -f 1000 -i arkanoid/ml/ml_play.py arkanoid --difficulty EASY --level 5  \u000D"
+          }
+        }
+      ]
+    }
+  ],
+  "workspaceKeybindings.myAwesomeTask.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
+}
